@@ -3,9 +3,8 @@ public class LoopExample {
         int[] num={1,2,3,4,5};
         int searchkey=3;
         boolean result=false;
-
-
-        for(int n:num){
+        
+         for(int n:num){
             if(n==searchkey){
                 result=true;
                 break;
@@ -13,7 +12,6 @@ public class LoopExample {
             else{
                 result=false;
             }
-
         }
         if(result==true){
             System.out.println("number found");
@@ -22,6 +20,5 @@ public class LoopExample {
             System.out.println("number not found");
 
         }
-
     }
 }
