@@ -1,4 +1,5 @@
-class myMarket {
+class myMarket 
+{
   public static void main(String args[]) {
     int[] myMarket = new int[5]; // Array start with 0 
     myMarket[0] = 120;
